@@ -21,6 +21,7 @@
 		DD1EC55B1953F9DD00F48E6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1EC53D1953F9DD00F48E6A /* UIKit.framework */; };
 		DD1EC5631953F9DD00F48E6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD1EC5611953F9DD00F48E6A /* InfoPlist.strings */; };
 		DD1EC5651953F9DD00F48E6A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1EC5641953F9DD00F48E6A /* Git_TestTests.m */; };
+		DD1EC5701953FEC600F48E6A /* MFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1EC56F1953FEC600F48E6A /* MFTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DD1EC5601953F9DD00F48E6A /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		DD1EC5621953F9DD00F48E6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD1EC5641953F9DD00F48E6A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		DD1EC56E1953FEC600F48E6A /* MFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTest.h; sourceTree = "<group>"; };
+		DD1EC56F1953FEC600F48E6A /* MFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				DD1EC54B1953F9DD00F48E6A /* Main.storyboard */,
 				DD1EC54E1953F9DD00F48E6A /* MFViewController.h */,
 				DD1EC54F1953F9DD00F48E6A /* MFViewController.m */,
+				DD1EC56E1953FEC600F48E6A /* MFTest.h */,
+				DD1EC56F1953FEC600F48E6A /* MFTest.m */,
 				DD1EC5511953F9DD00F48E6A /* Images.xcassets */,
 				DD1EC5401953F9DD00F48E6A /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				DD1EC5461953F9DD00F48E6A /* main.m in Sources */,
 				DD1EC5501953F9DD00F48E6A /* MFViewController.m in Sources */,
+				DD1EC5701953FEC600F48E6A /* MFTest.m in Sources */,
 				DD1EC54A1953F9DD00F48E6A /* MFAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
